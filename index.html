@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinSmart — Финансовая грамотность</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Fin<span>Smart.</span></a>
+
+        <nav class="navigation">
+            <a href="#about">О проекте</a>
+            <a href="#sections">Обучение</a>
+            <a href="#team">Наша команда</a>
+        </nav>
+
+        <a href="#sections" class="header-button">
+            Начать обучение →
+        </a>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+
+                <h1>
+                    Учись управлять
+                    <span>деньгами</span>
+                    с умом.
+                </h1>
+
+                <p class="description">
+                    Финансовая грамотность — это не скучно!
+                    Изучай деньги, планируй бюджет и учись
+                    правильно распоряжаться своими финансами.
+                </p>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="cat-circle">
+                    <img src="dumbcat-removebg-preview.png"
+                         alt="Финтик">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+
+            <div class="about-content">
+                <h2>
+                    Знания сегодня —
+                    <span>уверенность завтра.</span>
+                </h2>
+
+                <p>
+                    FinSmart — образовательный проект,
+                    который помогает школьникам разобраться
+                    в мире финансов. Здесь ты узнаешь,
+                    как планировать расходы, откладывать
+                    деньги и избегать финансовых ошибок.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="catstaying-removebg-preview.png" alt="Финтик о проекте">
+            </div>
+
+        </section>
+
+        <section class="sections" id="sections">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Выбирай свой <span>раздел.</span></h2>
+                </div>
+            </div>
+
+            <div class="cards-wrapper">
+
+                <img src="catwalking-removebg-preview.png"
+                     class="walking-cat"
+                     alt="Финтик идёт">
+
+                <div class="cards">
+
+                    <article class="card card-blue" data-section="budget">
+                        <img src="cathuggingmoney-removebg-preview.png"
+                             alt="Личный бюджет">
+
+                        <h3>Мой бюджет</h3>
+                        <p>
+                            Учись планировать доходы и расходы,
+                            чтобы контролировать свои деньги.
+                        </p>
+                        <a href="pages/budget.html">Изучить раздел →</a>
+                    </article>
+
+                    <article class="card card-gray" data-section="pocket">
+                        <img src="sillycat-removebg-preview.png"
+                             alt="Карманные деньги">
+
+                        <h3>Карманные деньги</h3>
+                        <p>
+                            Разбирайся, как разумно использовать
+                            карманные деньги и на что их тратить.
+                        </p>
+                        <a href="pages/pocket-money.html">Изучить раздел →</a>
+                    </article>
+
+                    <article class="card card-blue" data-section="savings">
+                        <img src="kittyyy-removebg-preview.png"
+                             alt="Накопления">
+
+                        <h3>Накопления</h3>
+                        <p>
+                            Узнай, как ставить финансовые цели
+                            и постепенно копить на мечту.
+                        </p>
+                        <a href="pages/savings.html">Изучить раздел →</a>
+                    </article>
+
+                    <article class="card card-pink" data-section="mistakes">
+                        <img src="kittycrying-removebg-preview.png"
+                             alt="Финансовые ошибки">
+
+                        <h3>Финансовые ошибки</h3>
+                        <p>
+                            Научись распознавать неправильные
+                            финансовые решения и избегать их.
+                        </p>
+                        <a href="pages/mistakes.html">Изучить раздел →</a>
+                    </article>
+
+                </div>
+            </div>
+
+            <form class="budget-form" id="budget-form">
+                <input type="number" id="sum-input" placeholder="Сумма">
+                <select id="section-select">
+                    <option value="budget">Мой бюджет</option>
+                    <option value="pocket">Карманные деньги</option>
+                    <option value="savings">Накопления</option>
+                    <option value="mistakes">Финансовые ошибки</option>
+                </select>
+                <button type="submit" class="header-button">Проверить</button>
+                <span id="form-output"></span>
+            </form>
+
+        </section>
+
+        <section class="rules">
+
+            <h2>Пять правил финансовой <span>грамотности.</span></h2>
+
+            <div class="rules-list">
+                <div class="rule">
+                    <span>01</span>
+                    <p>Планируй свои расходы.</p>
+                </div>
+
+                <div class="rule">
+                    <span>02</span>
+                    <p>Не трать больше, чем имеешь.</p>
+                </div>
+
+                <div class="rule">
+                    <span>03</span>
+                    <p>Откладывай деньги.</p>
+                </div>
+
+                <div class="rule">
+                    <span>04</span>
+                    <p>Сравнивай цены.</p>
+                </div>
+
+                <div class="rule">
+                    <span>05</span>
+                    <p>Защищай свои деньги.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer" id="team">
+        <div class="footer-team">
+            <h3>Наша команда</h3>
+
+            <div class="footer-members">
+                <div class="member">
+                    <img src="member1.jpg" alt="Микола Свиридонов">
+                    <div class="member-info">
+                        <strong>Свиридонов Микола</strong>
+                        <span>Разработчик</span>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="member2.jpg" alt="Тарнавський Микола">
+                    <div class="member-info">
+                        <strong>Тарнавський Микола</strong>
+                        <span>Разработчик</span>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="member3.jpg" alt="Потапова Вікторія">
+                    <div class="member-info">
+                        <strong>Потапова Вікторія</strong>
+                        <span>Дизайнер</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <footer class="footer">
+        
+        <a href="#" class="logo">Fin<span>Smart.</span></a>
+
+        <p>Учись. Планируй. Достигай.</p>
+
+        <p>© 2026 FinSmart Project</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
